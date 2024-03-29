@@ -3,14 +3,14 @@ import html from "../../../assets/html.png";
 import css from "../../../assets/css.png";
 import javascript from "../../../assets/javascript.png";
 import react from "../../../assets/react.png";
-import vue from "../../../assets/vue.png";
+import graphql from "../../../assets/graphql.png";
 import git from "../../../assets/git.png";
 import github from "../../../assets/github.png";
-import node from "../../../assets/node.png";
-import nextjs from "../../../assets/nextjs.png";
+import python from "../../../assets/python.png";
+import soldidity from "../../../assets/solidity.png";
 import postgres from "../../../assets/postgres.png";
-import redux from "../../../assets/redux.png";
-import tailwind from "../../../assets/tailwind.png";
+import tenderly from "../../../assets/tenderly.png";
+import golang from "../../../assets/golang.png";
 import { Link as ScrollLink } from "react-scroll";
 
 const Techs = () => {
@@ -41,26 +41,26 @@ const Techs = () => {
     },
     {
       id: 5,
-      src: vue,
-      title: "Vue",
-      style: "shadow-emerald-500",
+      src: graphql,
+      title: "GraphQL",
+      style: "shadow-purple-500",
     },
     {
       id: 6,
-      src: tailwind,
-      title: "Tailwind CSS",
+      src: golang,
+      title: "Go",
       style: "shadow-cyan-700",
     },
     {
       id: 7,
-      src: node,
-      title: "Node JS",
+      src: python,
+      title: "Python",
       style: "shadow-lime-400",
     },
     {
       id: 8,
-      src: nextjs,
-      title: "Next JS",
+      src: soldidity,
+      title: "Solidity",
       style: "shadow-white",
     },
     {
@@ -83,8 +83,8 @@ const Techs = () => {
     },
     {
       id: 12,
-      src: redux,
-      title: "Redux",
+      src: tenderly,
+      title: "Tenderly",
       style: "shadow-violet-700",
     },
   ];

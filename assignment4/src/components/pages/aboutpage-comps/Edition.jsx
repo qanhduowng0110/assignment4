@@ -6,18 +6,18 @@ const Edition = () => {
             {/* Seccion izquierda */}
             <section className='grid gap-10'>
                 <div>
-                    <h3 className='text-sm text-gray-400'>Videos</h3>
-                    <h2 className='text-3xl font-semibold mt-2'>Some videos that I have edited.</h2>
+                    <h3 className='text-sm text-gray-400'>Hobbies</h3>
+                    <h2 className='text-3xl font-semibold mt-2'>These are some of my favorites.</h2>
                 </div>
 
                 <article className='bg-gray-d relative border-[1px] border-primary-color/30 rounded-lg overflow-hidden'>
                     <div>
-                        <img src="/images/videosImages/reel-diego.webp" alt="reel-diego" loading='lazy' />
+                        <img src="/images/videosImages/ngot.png" alt="ngot" loading='lazy' />
                     </div>
                     <section className='p-6'>
-                        <h4>Demo reel - Anthony Duong</h4>
-                        <p className='text-gray-400 text-md mt-2'>Demo reel by Anthony Duong Contreras, video editor located in the city of Bogotá with more than 7 years of experience in the post-production of all kinds of audiovisual products.</p>
-                        <a href="https://youtu.be/ZaNV03Y6Yfo" target='_blank' className='bg-gradient-to-t from-green-400 to-primary-color p-1 absolute bottom-0 right-0 text-lg'>
+                        <h4>Music Band - Ngọt</h4>
+                        <p className='text-gray-400 text-md mt-2'>I've known them since 2014, but it wasn't until 2018 that I became a big fan of them. They are pioneers in the indie music movement in Vietnam with different music. Each of their songs has a different style that touches my soul</p>
+                        <a href="https://open.spotify.com/artist/0V2DfUrZvBuUReS1LFo5ZI" target='_blank' className='bg-gradient-to-t from-green-400 to-primary-color p-1 absolute bottom-0 right-0 text-lg'>
                             <i className='bx bx-link text-black'></i>
                         </a>
                     </section>
@@ -25,12 +25,12 @@ const Edition = () => {
 
                 <article className='bg-gray-d relative border-[1px] border-primary-color/30 rounded-lg overflow-hidden'>
                     <div>
-                        <img src="/images/videosImages/informal.webp" alt="informal employment" loading='lazy' />
+                        <img src="/images/videosImages/kdb.webp" alt="kdb" loading='lazy' />
                     </div>
                     <section className='p-6'>
-                        <h4>Informal Employment - The Project is Colombia</h4>
-                        <p className='text-gray-400 text-md mt-2'>Chronicle edited for the Project is Colombia from Noticias Caracol. Journalist: Marcela Pulido. Editing and coloring: Anthony Duong. Language: spanish. December 2020.</p>
-                        <a href="https://youtu.be/T23Vnz8hcPc" target='_blank' className='bg-gradient-to-t from-green-400 to-primary-color p-1 absolute bottom-0 right-0 text-lg'>
+                        <h4>Football Player - Kevin De Bruyne</h4>
+                        <p className='text-gray-400 text-md mt-2'>Kevin De Bruyne is a Belgian professional footballer widely regarded as one of the most gifted midfielders of his generation. De Bruyne's versatility, vision, and exceptional passing ability have made him a pivotal figure for both club and country. He has showcased his talents primarily for Manchester City in the English Premier League, where he consistently delivers impressive performances, contributing crucial goals and assists. De Bruyne's technical prowess, coupled with his intelligence on the field, enables him to dictate the pace of play and unlock defenses with precision passes.</p>
+                        <a href="https://vi.wikipedia.org/wiki/Kevin_De_Bruyne" target='_blank' className='bg-gradient-to-t from-green-400 to-primary-color p-1 absolute bottom-0 right-0 text-lg'>
                             <i className='bx bx-link text-black'></i>
                         </a>
                     </section>
@@ -41,12 +41,12 @@ const Edition = () => {
             <section className='grid gap-10'>
             <article className='bg-gray-d relative border-[1px] border-primary-color/30 rounded-lg overflow-hidden'>
                     <div>
-                        <img src="/images/videosImages/macroeconomics.webp" alt="macroeconomics" loading='lazy' />
+                        <img src="/images/videosImages/t1.png" alt="t1" loading='lazy' />
                     </div>
                     <section className='p-6'>
-                        <h4>Macroeconomics - The Project is Colombia</h4>
-                        <p className='text-gray-400 text-md mt-2'>Chronicle edited for the Project is Colombia from Noticias Caracol. Journalist: Victor Grosso. Editing and coloring: Anthony Duong. Language: spanish. December 2020.</p>
-                        <a href="https://youtu.be/-MCSBxC_a6M" target='_blank' className='bg-gradient-to-t from-green-400 to-primary-color p-1 absolute bottom-0 right-0 text-lg'>
+                        <h4>Video Games - League of Legends</h4>
+                        <p className='text-gray-400 text-md mt-2'>Often abbreviated as LoL, is a highly popular multiplayer online battle arena (MOBA) game developed and published by Riot Games. In League of Legends, players assume the role of "champions" with unique abilities and strengths, engaging in strategic team-based combat against an opposing team. Matches take place on a variety of maps, with the primary objective typically being the destruction of the enemy team's base while defending one's own.</p>
+                        <a href="https://www.leagueoflegends.com/vi-vn/" target='_blank' className='bg-gradient-to-t from-green-400 to-primary-color p-1 absolute bottom-0 right-0 text-lg'>
                             <i className='bx bx-link text-black'></i>
                         </a>
                     </section>
@@ -54,21 +54,21 @@ const Edition = () => {
 
                 <article className='bg-gray-d relative border-[1px] border-primary-color/30 rounded-lg overflow-hidden'>
                     <div>
-                        <img src="/images/videosImages/burger.webp" alt="burger day" loading='lazy' />
+                        <img src="/images/videosImages/onepiece.png" alt="onepiece" loading='lazy' />
                     </div>
                     <section className='p-6'>
-                        <h4>Burger Day - 2022</h4>
-                        <p className='text-gray-400 text-md mt-2'>Video edited for Fedegán on International Hamburger Day 2022 where Hector Horacio Hernandez, manager of Alimont Food Service Sas, is interviewed. Language: spanish. May 2022.</p>
-                        <a href="https://youtu.be/gAcZh8c1Pa4" target='_blank' className='bg-gradient-to-t from-green-400 to-primary-color p-1 absolute bottom-0 right-0 text-lg'>
+                        <h4>Anime - One Piece</h4>
+                        <p className='text-gray-400 text-md mt-2'>"One Piece" is a wildly popular Japanese manga series created by Eiichiro Oda. It follows the adventures of Monkey D. Luffy and his diverse crew of pirates as they search for the legendary treasure known as One Piece. Set in a world of vast oceans and uncharted islands, the series is renowned for its rich world-building, compelling characters, and epic battles. With themes of friendship, freedom, and the pursuit of dreams, "One Piece" has captivated audiences worldwide for its intricate plotlines, emotional depth, and boundless imagination. As the Straw Hat Pirates journey across the Grand Line, they encounter formidable foes, forge unbreakable bonds, and uncover the mysteries of the world, making "One Piece" an enduring masterpiece in the realm of manga and anime.</p>
+                        <a href="https://www.imdb.com/title/tt0388629/" target='_blank' className='bg-gradient-to-t from-green-400 to-primary-color p-1 absolute bottom-0 right-0 text-lg'>
                             <i className='bx bx-link text-black'></i>
                         </a>
                     </section>
                 </article>
 
                 <div className='grid place-items-center'>
-                    <a href="https://www.youtube.com/channel/UCjtCZzmhh8fafKo5L-YbSyg" target='_blank' className='text-black font-semibold text-[16px] w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-t from-green-400 to-primary-color cursor-pointer mx-auto md:mx-0 self-end max-w-max'>
-                        <i className='bx bxl-youtube mr-2 text-2xl' ></i>
-                        Youtube channel
+                    <a href="https://metamask.io/" target='_blank' className='text-black font-semibold text-[16px] w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-t from-green-400 to-primary-color cursor-pointer mx-auto md:mx-0 self-end max-w-max'>
+                        <i className='bx bxl-bitcoin mr-2 text-2xl' ></i>
+                        Donate for me
                     </a>
                 </div>
             </section>

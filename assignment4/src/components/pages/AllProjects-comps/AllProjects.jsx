@@ -1,102 +1,97 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import easyshop from '/images/projectsImages/easyshop.webp'
-import pokedex from '/images/projectsImages/pokedex.webp'
-import acciovocabulary from '/images/projectsImages/acciovocabulary.webp'
-import rickandmorty from '/images/projectsImages/rickandmorty.webp'
-import academloshop from '/images/projectsImages/academloshop.webp'
-import weatherapp from '/images/projectsImages/weatherapp.webp'
-import dogsblog from '/images/projectsImages/dogsblog.webp'
-import crud from '/images/projectsImages/crud.webp'
-import moviepedia from '/images/projectsImages/moviepedia.webp'
-import tictactoe from '/images/projectsImages/tictactoe.webp'
-import soccerquotes from '/images/projectsImages/soccerquotes.webp'
-import fortunecookies from '/images/projectsImages/fortunecookies.webp'
-import todomachine from '/images/projectsImages/todomachine.webp'
+import reentrancy from '/images/projectsImages/ERC721-reentrancy.png'
+import collision from '/images/projectsImages/Storage-Collision.png'
+import owntoken from '/images/projectsImages/My-Own-Token.png'
+import basicsever from '/images/projectsImages/basic-web-sever.png'
+import todo from '/images/projectsImages/Basic-Todo-List.png'
+import flashloan from '/images/projectsImages/FlashLoan-Security.webp'
+import slackbot from '/images/projectsImages/SLACKBOT-Age-Calculator.png'
+import parkinglot from '/images/projectsImages/ParkingLot.png'
+import aibasic from '/images/projectsImages/Simple-AI-assistant.png'
+import aiadvanced from '/images/projectsImages/Advanced-AI-Chatbot.png'
+import assignment2 from '/images/projectsImages/assignment2.webp'
+import assignment4 from '/images/projectsImages/assignment4.png'
+
 
 const AllProjects = () => {
 
     const projects = [
         {
             id: 1,
-            src: easyshop,
-            demo: 'https://easyshop-bydt.netlify.app/',
-            code: 'https://github.com/qanhduowng0110/EasyShop'
+            src: reentrancy,
+            demo: 'https://github.com/qanhduowng0110/ERC721-reentrancy',
+            code: 'https://github.com/qanhduowng0110/ERC721-reentrancy'
         },
         {
             id: 2,
-            src: acciovocabulary,
-            demo: 'https://diegotellezc.github.io/landing-accio-vocabulary/',
-            code: 'https://github.com/qanhduowng0110/landing-accio-vocabulary'
+            src: collision,
+            demo: 'https://github.com/qanhduowng0110/Storage-Collision',
+            code: 'https://github.com/qanhduowng0110/Storage-Collision'
         },
         {
             id: 3,
-            src: dogsblog,
-            demo: 'https://dogs-blog-diegotellezdev.netlify.app/',
-            code: 'https://github.com/qanhduowng0110/dogsBlog'
+            src: owntoken,
+            demo: 'https://github.com/qanhduowng0110/My-Own-Token',
+            code: 'https://github.com/qanhduowng0110/My-Own-Token'
         },
         {
             id: 4,
-            src: academloshop,
-            demo: 'https://academlostoregen24.netlify.app/',
-            code: 'https://github.com/qanhduowng0110/academloShop'
+            src: basicsever,
+            demo: 'https://github.com/qanhduowng0110/qanhduowng0110.basic-web-sever.io',
+            code: 'https://github.com/qanhduowng0110/qanhduowng0110.basic-web-sever.io'
         },
         {
             id: 5,
-            src: weatherapp,
-            demo: 'https://weatherappbydt.netlify.app/',
-            code: 'https://github.com/qanhduowng0110/weather-app'
+            src: todo,
+            demo: 'https://github.com/qanhduowng0110/Basic-Todo-List',
+            code: 'https://github.com/qanhduowng0110/Basic-Todo-List'
         },
         {
             
             id: 6,
-            src: rickandmorty,
-            demo: 'https://rickandmorty-bydt.netlify.app/',
-            code: 'https://github.com/qanhduowng0110/RickAndMortyApp'
+            src: flashloan,
+            demo: 'https://github.com/qanhduowng0110/FlashLoan-Security',
+            code: 'https://github.com/qanhduowng0110/FlashLoan-Security'
         },
         {
             id: 7,
-            src: todomachine,
-            demo: 'https://diegotellezc.github.io/toDoMachine/',
-            code: 'https://github.com/qanhduowng0110/toDoMachine'
+            src: slackbot,
+            demo: 'https://github.com/qanhduowng0110/SLACKBOT-Age-Calculator',
+            code: 'https://github.com/qanhduowng0110/SLACKBOT-Age-Calculator'
         },
         {
             id: 8,
-            src: crud,
-            demo: 'https://users-crud-bydt.netlify.app/',
-            code: 'https://github.com/qanhduowng0110/Users-CRUD'
+            src: parkinglot,
+            demo: 'https://github.com/qanhduowng0110/ParkingLot',
+            code: 'https://github.com/qanhduowng0110/ParkingLot'
         },
         {
             id: 9,
-            src: moviepedia,
-            demo: 'https://diegotellezc.github.io/Moviepedia/',
-            code: 'https://github.com/qanhduowng0110/Moviepedia'
+            src: aibasic,
+            demo: 'https://github.com/qanhduowng0110/Simple-AI-assistant',
+            code: 'https://github.com/qanhduowng0110/Simple-AI-assistant'
         },
         {
             id: 10,
-            src: pokedex,
-            demo: 'https://pokedex-bydt.netlify.app/',
-            code: 'https://github.com/qanhduowng0110/pokedex'
+            src: aiadvanced,
+            demo: 'https://github.com/qanhduowng0110/Advanced-AI-Chatbot',
+            code: 'https://github.com/qanhduowng0110/Advanced-AI-Chatbot'
         },
         {
             id: 11,
-            src: tictactoe,
-            demo: 'https://tictactoebydt.netlify.app/',
-            code: 'https://github.com/qanhduowng0110/Tictactoebydt'
+            src: assignment2,
+            demo: 'https://github.com/qanhduowng0110/assignment2',
+            code: 'https://github.com/qanhduowng0110/assignment2'
         },
         {
             id: 12,
-            src: fortunecookies,
-            demo: 'https://fortunecookiesapp.netlify.app/',
-            code: 'https://github.com/qanhduowng0110/fortuneCookies'
+            src: assignment4,
+            demo: 'https://github.com/qanhduowng0110/assignment4',
+            code: 'https://github.com/qanhduowng0110/assignment4'
         },
-        {
-            id: 13,
-            src: soccerquotes,
-            demo: 'https://soccerquotes.netlify.app/',
-            code: 'https://github.com/qanhduowng0110/soccerQuotes'
-        },
+
     ]
 
     const handleClickDemo = (demoUrl) => {
